@@ -1193,6 +1193,10 @@ main {
   line-height: 1.6;
 }
 
+.cform{
+  border-radius: 15px;
+}
+
 
 /*-----------------------------------*\
   #RESPONSIVE
