@@ -25,12 +25,13 @@ class RoboticsEngineer:
         self.name = "Sai Sasivardhan Gampa"
         self.role = "Robotics Engineer"
         self.location = "Hyderabad, Telangana, India"
-        self.education = "NIT Warangal"
+        self.education = "B.tech, NIT Warangal"
         self.passion = ["Robotics", "Electronics", "Innovation"]
         
     def current_focus(self):
         return [
             "Advanced Robotic Systems",
+            "Electronics and Firmware",
             "ROS2 Development",
             "IoT Integration",
             "Autonomous Navigation"
@@ -85,9 +86,9 @@ class RoboticsEngineer:
 
 ### 🤖 **Robotics Club, NIT Warangal** | *Secretary & Project Incharge*
 **📅 Jan 2023 - Present | 📍 Warangal, Telangana**
-- 📈 Improved operational efficiency by **25%** through advanced robotic systems
+- 📈 Developed Robotic arms and AGV's
 - 🏆 Led teams in **eYantra** and **Robocon** competitions
-- 🎯 Specialized in **autonomous navigation** and **object manipulation**
+- 🎯 Specialized in **electronics** and **robotic software**
 
 ---
 
@@ -122,14 +123,14 @@ class RoboticsEngineer:
 
 <div align="center">
 
-| Skill | Proficiency | Progress |
-|-------|-------------|----------|
-| **Python** | Expert (85%) | ![Progress](https://progress-bar.dev/85?color=3776AB) |
-| **Embedded C** | Expert (90%) | ![Progress](https://progress-bar.dev/90?color=A8B9CC) |
-| **Web Development** | Expert (80%) | ![Progress](https://progress-bar.dev/80?color=F7DF1E) |
-| **C++** | Proficient (60%) | ![Progress](https://progress-bar.dev/60?color=00599C) |
-| **ROS2** | Intermediate (40%) | ![Progress](https://progress-bar.dev/40?color=22314E) |
-| **Mechanical Design** | Beginner (30%) | ![Progress](https://progress-bar.dev/30?color=FF6600) |
+| Skill | Proficiency |
+|-------|-------------|
+| **Python** | Expert (85%) |
+| **Embedded C** | Expert (90%) |
+| **Web Development** | Expert (80%) |
+| **C++** | Proficient (60%) |
+| **ROS2** | Intermediate (40%) |
+| **Mechanical Design** | Beginner (30%) | 
 
 </div>
 
@@ -137,19 +138,18 @@ class RoboticsEngineer:
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<div align="left">
+
+### 📍 **Dynamic GPS Tracking System**
+- Real-time location tracking with **30%** faster response
+- **ESP8266** and **Firebase** integration
+- **99%** data accuracy achievement
 
 ### 🌙 **Moon Rover - ISRO IRoC-U**
 *Advanced autonomous rover with V-SLAM navigation*
 - 🎯 **40%** improvement in operational efficiency
 - 📷 **Intel RealSense** depth camera integration
 - 🧠 **V-SLAM & PID** algorithms implementation
-
-### 🗑️ **Waste Management Robot**
-*Intelligent waste segregation system*
-- 🎯 **85%** waste identification accuracy
-- 🦾 **3-axis robotic arm** for sorting
-- 📦 **15kg** holding capacity
 
 ### 🤖 **5-Axis Robotic Arm**
 *Precision robotic manipulation system*
@@ -162,10 +162,11 @@ class RoboticsEngineer:
 <details>
 <summary>🔍 <strong>View More Projects</strong></summary>
 
-### 📍 **Dynamic GPS Tracking System**
-- Real-time location tracking with **30%** faster response
-- **ESP8266** and **Firebase** integration
-- **99%** data accuracy achievement
+### 🗑️ **Waste Management Robot**
+*Intelligent waste segregation system*
+- 🎯 **85%** waste identification accuracy
+- 🦾 **3-axis robotic arm** for sorting
+- 📦 **15kg** holding capacity
 
 ### 🏃 **Autonomous Mobile Robot (AMR)**
 - **SLAM** implementation for navigation
@@ -190,7 +191,7 @@ class RoboticsEngineer:
 | 🥇 **1st Prize** - Hitachi's Innothon | Feb 2025 | NITW & Hitachi |
 | 🥇 **Best Innovator & Innovation** | Jan 2025 | Innovation Garage |
 | 📋 **Patent Filed** - EV GPS Locator | Dec 2024 | Patent Office |
-| 🏆 **Top 150 Teams** - ISRO IRoC | Jan 2024 | ISRO |
+| 🏆 **Top 150 Teams** - ISRO IRoC | Jan 2024 | ISRO IRoC Rover|
 | 🥇 **1st Prize** - ECE Hackathon | Nov 2023 | NIT Warangal |
 | 🥉 **4th Prize** - MJ's ACES Hack | Dec 2023 | MJ College |
 
@@ -216,30 +217,71 @@ class RoboticsEngineer:
 
 ```mermaid
 mindmap
-  root((Robotics Journey))
-    Advanced Systems
-      Autonomous Navigation
-      V-SLAM Implementation
-      Multi-sensor Fusion
-    ROS2 Development
-      Node Architecture
-      Service Integration
-      Parameter Management
-    IoT & Electronics
+  root((My Robotics Journey))
+
+    IoT and Electronics
       Sensor Networks
+        Ultrasonic and IR Sensors
+        GPS IMU and RFID Modules
       Embedded Systems
+        Arduino ESP8266 STM32
+        PID Control and Serial Communication
       Real-time Processing
+        WiFi Firebase Communication
+        GSM and SMS Integration
+
+    Robotics Software
+      ROS2 Development
+        Node Architecture and Launch Files
+        Service and Action Integration
+        Parameter Management using YAML
+      Perception and Vision
+        OpenCV Object Detection
+        Camera and AprilTag Localization
+      Autonomous Navigation
+        SLAM using Gmapping and VSLAM
+        Path Planning and Obstacle Avoidance
+      Multi Sensor Fusion
+        Lidar IMU and Camera Fusion
+        Kalman Filter Techniques
+
+    Mechanical Design
+      Robotic Arms
+        Three Axis Arm for Sorting
+        Five Axis Arm with PID Control
+      Mobile Robots
+        Autonomous Mobile Robots
+        Moon Rover and Omni Rover
+      CAD and Modeling
+        Fusion360 for Mechanism Design
+        AutoCAD for Drafting
+
+    Web and App Development
+      Web Interfaces
+        Real Time GPS Dashboards
+        Firebase and HTML Integration
+      App Control
+        Blynk RemoteXY Android Studio
+        Google Sheets Automation
+
     Innovation
       Patent Development
+        EV GPS Locator Patent Filed
       Research Projects
-      Competition Participation
+        Millet Cooking Robot Teckybot
+        Smart Waste Management System
+      Competitions
+        First Prize Hitachi Innothon
+        Robocon E Yantra IRoC Finalist
+
+
 ```
 
 ---
 
 ## 🤝 Let's Connect!
 
-<div align="center">
+<div align="left">
 
 💬 **Always excited to discuss:**
 - 🤖 **Robotics** innovations and challenges
